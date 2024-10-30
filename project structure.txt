@@ -1,0 +1,44 @@
+VerifyEase/
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│   ├── index.php
+│
+├── src/
+│   ├── controllers/
+│   │   ├── AdminController.php
+│   │   ├── ClientController.php
+│   │   └── VerificationController.php
+│   │
+│   ├── models/
+│   │   ├── User.php
+│   │   ├── Code.php
+│   │   └── PricingPlan.php
+│   │
+│   ├── views/
+│   │   ├── admin/
+│   │   │   ├── dashboard.php
+│   │   │   ├── users.php
+│   │   │   └── settings.php
+│   │   │
+│   │   ├── client/
+│   │   │   ├── dashboard.php
+│   │   │   ├── codes.php
+│   │   │   └── settings.php
+│   │   │
+│   │   ├── common/
+│   │   │   ├── header.php
+│   │   │   ├── footer.php
+│   │   │   └── navbar.php
+│   │   │
+│   │   ├── home.php
+│   │   ├── about.php
+│   │   ├── contact.php
+│   │   ├── terms.php
+│   │   ├── privacy.php
+│   │   └── refunds.php
+│   │
+│   └── bootstrap.php
+│
+└── .htaccess

@@ -1,0 +1,96 @@
+  body {
+               background: linear-gradient(131deg, #4f46e54d, #7c3aed52);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+        height: 100vh;
+        }
+        .container {
+    width: 80%;
+}
+
+        .verification-section {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            color: #333;
+        }
+
+        .left-side {
+            flex: 1;
+            background: url('https://nexteaze.digizonesolutions.com/public/images/banner/2151232228.jpg') no-repeat center center/cover; /* Replace with your brand's image */
+        }
+
+        .right-side {
+            flex: 1;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .brand-logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #4f46e5;
+        }
+
+        /*.form-control {*/
+        /*    border-radius: 50px;*/
+        /*    padding: 20px;*/
+        /*    font-size: 16px;*/
+        /*}*/
+
+        .btn-custom {
+            background-color: #4f46e5;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #4338ca;
+        }
+
+        .alert-custom {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .tagline {
+            font-size: 16px;
+            font-weight: 400;
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .verification-section {
+                flex-direction: column;
+            }
+
+            .left-side {
+                height: 200px;
+            }
+        }

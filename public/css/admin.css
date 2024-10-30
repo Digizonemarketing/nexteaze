@@ -1,0 +1,254 @@
+.progress-bar-container {
+    display: none;
+    width: 100%;
+    height: 8px;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #12B5DE -30%, #7130C3 30%, #FF3BD4 90%);
+    background-size: 300% 300%;
+    border-radius: 12px;
+    transition: width 0.4s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-info {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.progress-info .percentage {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #12B5DE -30%, #7130C3 30%, #FF3BD4 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.progress-info .success-message {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #12B5DE -30%, #7130C3 30%, #FF3BD4 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.progress-info span {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.generated-codes {
+    margin-top: 20px;
+    background: linear-gradient(90deg, #12B5DE -30%, #7130C3 30%, #FF3BD4 90%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.generated-codes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.generated-codes ul li {
+    background: #f3f3f3;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 40px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+th,
+td {
+    color: #adadad;
+    border-radius: 10px;
+}
+
+.status-icon {
+    font-size: 20px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.status-success {
+    color: #28a745;
+    /* Green */
+}
+
+.status-failure {
+    color: #dc3545;
+    /* Red */
+}
+
+.password-section {
+    position: relative;
+}
+
+.password-section .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    .time{
+      display: none;
+    }
+  }
+  
+  .in_row {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .controls,
+    .color-picker,
+    .angle-picker,
+    .color-stops,
+    .gradient-type-picker {
+        margin-bottom: 20px;
+    }
+
+    .color-picker label,
+    .angle-picker label,
+    .color-stops label,
+    .gradient-type-picker label {
+        margin-bottom: 10px;
+    }
+
+    .color-stop-picker{
+        padding: 0px !important;
+        border-color: #ffffff1a !important; 
+    }
+
+    .color-picker input[type="color"],
+    .color-stops input[type="color"] {
+        border: none;
+        cursor: pointer;
+        width: 60px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 0px !important;
+    }
+
+    .color-stops .color-stop {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .color-stops input[type="number"] {
+        width: 80px;
+        margin-right: 10px;
+    }
+
+    input[type="range"] {
+        width: 100%;
+    }
+
+    #gradientPreview {
+        height: 150px;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #12B5DE, #FF3BD4);
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 80px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        resize: none;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .remove-stop,
+    .add-stop {
+        margin-left: 10px;
+        width: 15%;
+    }
+
+    .gradient-type-picker select,
+    .angle-picker input,
+    .color-stops input {
+        width: 100%;
+    }
+
+    button.btn-default.bg-gradient-secondary {
+        width: 100% !important;
+    }
+
+    .outer1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .controls-preview {
+        width: 45%;
+    }
+    
+    #seo-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    background-color: #f1f1f1;
+}
+
+#seo-toolbar button {
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+#seo-editor {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
